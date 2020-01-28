@@ -3,7 +3,7 @@ layout: post
 title:  Flu prediction
 date:   2020-01-27 11:00:20 +0300
 description: In this tutorial, we will analyse the evolution of the flu in France over 4 years. # Add post descrion (optional)
-img: 1-result.png # Add image post (optional)
+img: post-1.png # Add image post (optional)
 tags: [ML, Models]
 author: Xavier Bracquart # Add name author (optional)
 ---
