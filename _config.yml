@@ -1,0 +1,49 @@
+title: Personal blog - Xavier Bracquart
+email: #your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Xavier Bracquart's personal blog, gathering projects around data science. 
+permalink: ':title/'
+##baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Xavier Bracquart # add your name
+author-pic: xavier-face.jpg
+about-author: > 
+  My name is Xavier Bracquart. I am a data science student, at <a href="https://www.telecom-paris.fr/en/home" target="_blank">Télécom Paris</a>.
+  <br />I am looking for a 4 to 6-month end-of-studies internship. Feel free to contact me!
+
+# Contact links
+email: ' x[lastname][at]gmail.com' # Add your Email address
+phone: # Add your Phone number
+website: xavierbrt.github.io # Add your website, do not add http://
+linkedin: xbracquart # Add your Linkedin handle
+github: xavierbrt # Add your Github handle
+twitter: #'@artemsheludko_' # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: # Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
