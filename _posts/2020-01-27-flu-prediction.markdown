@@ -2,12 +2,12 @@
 layout: post
 title:  Flu prediction
 date:   2020-01-27 11:00:20 +0300
-description: In this tutorial, we will analyse the evolution of the flu in France over 4 years. # Add post descrion (optional)
+description: In this tutorial, we will analyze the evolution of the flu in France over 4 years. # Add post descrion (optional)
 img: post-1.png # Add image post (optional)
 tags: [ML, Models]
 author: Xavier Bracquart # Add name author (optional)
 ---
-In this tutorial, we will analyse the evolution of the flu in France over 4 years. The data is produced by [OpenHealth](https://www.openhealth.fr/) ([download csv](https://www.openhealth.fr/publicFiles/Openhealth_S-Grippal.csv)).<br />
+In this tutorial, we will analyze the evolution of the flu in France over 4 years. The data is produced by [OpenHealth](https://www.openhealth.fr/) ([download csv](https://www.openhealth.fr/publicFiles/Openhealth_S-Grippal.csv)).<br />
 
 First, we will **explore the data**, which is a time series. Then, we will **study the periodicity** of flu episodes. To finish, we will **predict the tendency** of the flu over a year.
 
@@ -120,7 +120,7 @@ plt.show()
 ![png]({{site.baseurl}}/assets/img/output_11_0.png)
 
 
-The graph represents the number of cases of influenza detected per day, over 5 years.<br />
+The graph represents the number of cases of influenza detected per day, over 4 years.<br />
 There was a **strong peak in the beginning of 2013**. It appears in the [press](https://www.pourquoidocteur.fr/Articles/Question-d-actu/3878-Grippe-2013-l-epidemie-la-plus-longue-depuis-30-ans) that this was the longest epidemic for 30 years.<br /> 
 It seems that there were few cases in 2014, but this is explained by the fact that the data stopped in April 2014.
 
@@ -167,7 +167,7 @@ The histogram is now more extensive. Transformation by the natural logarithm smo
 
 ## Analysis of the flu cycles
 
-To analyze the periodicity of the flu episodes, we will display a periodogram, which estimates the power spectral density of a signal by taking the square of its Fourier transformation. 
+To analyze the periodicity of the flu episodes, we will display a **periodogram**, which estimates the power spectral density of a signal by taking the square of its Fourier transform. 
 
 
 ```python
@@ -187,7 +187,7 @@ plt.show()
 ![png]({{site.baseurl}}/assets/img/output_23_0.png)
 
 
-The periodogram shows at **which frequencies appears peaks of flu cases**. We notice **4 main peaks** (around 0, 0.14, 0.28, 0.43).
+The periodogram shows at **which frequencies appear peaks of flu cases**. We notice **4 main peaks** (around 0, 0.14, 0.28, 0.43).
 
 We compute the exact frequency (in days) corresponding to the peaks:
 
@@ -208,7 +208,7 @@ index = sorted(np.concatenate((a,b)))
 
 
 We note that **the number of flu cases is mainly cyclical every year** (first peak: 350 days). <br />
-We also note **a cycle every week** (second peak: 7 days). The frequency of the week may be explained by the facts that the patients certainly visit the doctor more on Monday than the weekend.<br />
+We also note **a cycle every week** (second peak: 7 days). The frequency of the week may be explained by the facts that the patients certainly visit the doctor more on certain days of the week than others (on Monday rather than weekends for instance).<br />
 
 ## Remove a periodic trend
 
@@ -295,7 +295,7 @@ plt.show()
 ![png]({{site.baseurl}}/assets/img/output_31_0.png)
 
 
-By removing the annual trend **the first peak is now reduced** and become as important as the others.
+By removing the annual trend **the first peak is now reduced** and become as important as the others. We will set back this frequency for the rest of the tutorial.
 
 ## Predict the tendency of the flu over a year
 
@@ -491,7 +491,7 @@ df.head()
 
 
 
-We **divide the dataset** into two, for the training period(2009-07 - 2013-03) and the testing period (2013-04 - 2014-04):
+We **divide the dataset** into two, for the training period (2009-07 - 2013-03) and the testing period (2013-04 - 2014-04):
 
 
 ```python
@@ -531,8 +531,6 @@ plt.show()
 
 The predictions **follow the same trend** as the true values.<br /> However, the **predictions are higher** than the reality. There were likely to be more flu cases overall in the training years (in particular in 2013 as we have seen before) than in the year of predictions.
 
-Let's display the data for all years of the dataset, to check it:
-
 
 We compute the mean squared error and the residues:
 
@@ -555,7 +553,7 @@ plt.show()
 ![png]({{site.baseurl}}/assets/img/output_46_1.png)
 
 
-The residuals highlights that the deviations from the predictions were the largest **between October and February** (greatest deviation from the x-axis).
+The residues highlight that the deviations from the predictions were the largest **between October and February** (greatest deviation from the x-axis).
 
 We will compute the mean squared error for multiple n_harm parameter, in order to find the better one:
 
