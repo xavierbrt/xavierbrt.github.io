@@ -744,7 +744,7 @@ The similarity scores and the grades computed for the ebooks open a **large fiel
 
 
 
-
+You can see the complete code and project explanations on the associated [GitHub repository](https://github.com/xavierbrt/recommender-system).
 
 
 

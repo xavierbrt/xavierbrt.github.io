@@ -689,3 +689,7 @@ The score obtained is not very high. It is not a surprise, because the success o
 
 
 You can see the complete code and project explanations on the [GitHub repository of the project](https://github.com/xavierbrt/spark_project_kickstarter_2019_2020).
+
+
+--------------------
+Illustration photo by Nattanan Kanchanaprat from Pixabay.

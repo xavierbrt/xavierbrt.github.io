@@ -600,6 +600,7 @@ plt.show()
 The best (lowest) mean squared error is obtained with **11 harmonics**.
 
 
+You can see the complete code and explanations on the associated [GitHub repository](https://github.com/xavierbrt/ml-exploration/tree/master/time-series).
 
 
 
