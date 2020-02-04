@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Flu prediction
+title:  Flu Prediction
 date:   2020-01-27 11:00:20 +0300
 description: In this tutorial, we will analyze the evolution of the flu in France over 4 years. # Add post descrion (optional)
 img: post-1.png # Add image post (optional)
