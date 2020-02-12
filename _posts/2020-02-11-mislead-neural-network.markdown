@@ -187,9 +187,9 @@ The image still looks like a woman, but the rendering gives the impression of an
 
 # II- Improve the adversarial image
 
-## Lower the noise with an L2 constraint
+## Lower the noise with a L2 constraint
 
-We add a L2 regularization when computing the loss. The regularization factor, *beta*, is set as 0.5 in order to have a strong regularization. It was chosen after several tests.
+We add a L2 regularization when computing the loss. The regularization factor, *beta*, is set to 0.5 in order to have a strong regularization. It was chosen after several tests.
 
 
 ```python
@@ -247,7 +247,7 @@ plt.show()
 ![png]({{site.baseurl}}/assets/img/output_23_4.png)
 
 
-The face looks less damaged and more naturalwith this new filter.
+The face looks less damaged and more natural with this new filter.
 
 
 # III- Check that the model is misleaded
@@ -272,7 +272,7 @@ for i in range(0,3):
     Image Adversarial with L2: Man (scores: man: 1.876860, woman: -1.570869)
 
 
-The transformed images have misleaded the model and be labeled as men. The image with the L2 constraint has a lowest score than without, but it is still correct.
+The transformed images have misleaded the model and have been labeled as men. The image with the L2 constraint has a lowest score than without, but it is still correct.
 
 # Conclusion
 
