@@ -4,7 +4,7 @@ title:  Flu Prediction
 date:   2020-01-27 11:00:20 +0300
 description: In this tutorial, we will analyze the evolution of the flu in France over 4 years. # Add post descrion (optional)
 img: post-1.png # Add image post (optional)
-tags: [ML, Models]
+tags: [ML, Models, Time series]
 author: Xavier Bracquart # Add name author (optional)
 ---
 In this tutorial, we will analyze the evolution of the flu in France over 4 years. The data is produced by [OpenHealth](https://www.openhealth.fr/) ([download csv](https://www.openhealth.fr/publicFiles/Openhealth_S-Grippal.csv)).<br />

@@ -4,7 +4,7 @@ title:  Process data with a cloud system
 date:   2020-01-26 11:00:20 +0300
 description: Process data with a cloud system (AWS)
 img: post-6.jpg # Add image post (optional)
-tags: [Workflow, Cloud, NoSQL]
+tags: [Workflow, Scala, Cloud, NoSQL]
 author: Xavier Bracquart # Add name author (optional)
 ---
 
@@ -230,9 +230,6 @@ This project showed us how it is convenient to use a cloud system once the infra
 
 To finish, the GDELT database appears to present a lot of analysis possibilities.
 
-
-
-<br />
 
 You can see the complete code and project explanations on the [GitHub repository of the project](https://github.com/xavierbrt/telecom-projet-nosql).
 

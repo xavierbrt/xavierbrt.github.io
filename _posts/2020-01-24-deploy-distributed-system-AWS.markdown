@@ -173,6 +173,7 @@ This project let us familiarize ourselves with a cloud distributed system, on AW
 
 An important step was to choose the database management system, based on the constraints of the project and the characteristics of the systems that we know.
 
+We detail the use of this infrastructure in [this article](https://xavierbrt.github.io/process-data-cloud-system/).
 
 
 You can see the complete code and project explanations on the [GitHub repository of the project](https://github.com/xavierbrt/telecom-projet-nosql).
