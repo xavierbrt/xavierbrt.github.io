@@ -1,20 +1,9 @@
-
-============================== Post 5
-======== Intro
-
-We will use the [Global Database of Events, Language, and Tone (GDELT)](https://www.gdeltproject.org/). This databases gather news from around the world, as described on their website:
-
-> The GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.
-
-Then, we will set a workflow based on three parts, to get the data, store it on the database and query it
-
-
-
-# II- Workflow
-
-The workflow to process the data is divided in three parts: get the data and store it to S3, clean the data and store it on Cassandra, then query it according to our needs.
-
-As for the installation, we will see the main steps of the worklow. See the complete code on the refers to the [dedicated folder](https://github.com/xavierbrt/telecom-projet-nosql/tree/master/Notebooks) on the GitHub repo of the project. 
-
-
-
+TODO:
+## Main page:
+- Sort articles differently, by categories
+- Make the titles and tags more lisible
+## Posts: 
+- Increase width of the content
+- Possibility to hide the code, to have smaller articles
+- Recent posts: add button to list all the posts
+- Add a summary with links, at the top of each post (to do it, also add ids to each part)

@@ -5,7 +5,6 @@ _site
 yarn.lock
 node_modules/
 vendor
-Notes
 
 *old
 _includes/analytics.html
