@@ -3,9 +3,10 @@ layout: post
 title:  Deploy a distributed system on AWS
 date:   2020-01-24 11:00:20 +0300
 description: Deploy a distributed system on AWS
-img: post-5-1.jpg # Add image post (optional)
+img: post-5-1.jpg
 tags: [Infrastructure, Cloud, NoSQL]
-author: Xavier Bracquart # Add name author (optional)
+author: Xavier Bracquart
+github: https://github.com/xavierbrt/telecom-projet-nosql
 ---
 
 

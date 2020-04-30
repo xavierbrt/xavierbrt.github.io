@@ -1,6 +1,66 @@
 /* -----------  CUSTOM  ---------------- */
 
 
+/* 
+ * MAIN PAGE POST TITLE 
+ */
+
+.post-card-box {
+  margin: 5px 0 50px!important;
+}
+
+.home-page h1 {
+  font-size: 1.6em;
+  /*text-transform: uppercase;
+  text-align: center;*/
+}
+.post-card .post-card-body {
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.post-card .post-card-body .post-card-link {
+  margin-bottom: 3px;
+}
+.post-card .post-card-body .tag {
+  background-color: rgba(0,0,0,0.5);
+  padding: 0 5px;
+  margin-right: 2px;
+  font-size: 10.1px!important;
+}
+.post-card .post-card-body .post-card-title {
+  margin-bottom: 0!important;
+  text-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+
+
+/*.post-card-link h3{
+  background-color: rgba(0,0,0,0.4);
+  padding: 6px 4px 2px 4px;
+  line-height: 1;
+}*/
+
+
+
+
+
+
+
+/* 
+ * POSTS 
+ */
+
+.recent-post-text {
+  color: white;
+  background-color:rgba(0,0,0,0.5);
+  padding: 0 5px;
+}
+.caption {
+  font-size: 14px;
+  margin-top: 5px;
+  font-style: italic;
+}
+
 /* dataframes */
 .dataframe th {
   font-weight: bold;
@@ -67,46 +127,45 @@
 /* Margins and spaces */
 h1 {
   margin-top: 40px!important;
-  margin-bottom: 20px!important;
+  margin-bottom: 0px!important;
   /*font-size: 28px!important;*/
 }
 h2 {
   margin-top: 40px!important;
-  font-size: 28px!important;
   margin-bottom: 20px!important;
+  font-size: 26px!important;
 }
 .wrapper {
-  width: 1080px!important;
+  width: 1140px!important; /* template: 960px */
   max-width: 90%!important;
 }
 
-/* POSTS */
-.recent-post-text {
-  color: white;
-  background-color:rgba(0,0,0,0.4);
-  padding: 0 5px;
-}
-.caption {
+
+/* Post header */
+.subtitle {
+  text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin-top: 5px;
-  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.page-date,
+.page-github,
+.page-github p {
+  text-align: inherit!important;
+  display: inline!important;
+}
+.page-github {
+  margin-left: 15px;
+}
+.page-github .fa-github{
+  color: #3e3e40;
 }
 
 
-/* MAIN PAGE POST TITLE */
-/*.post-card-link h3{
-  background-color: rgba(0,0,0,0.4);
-  padding: 6px 4px 2px 4px;
-  line-height: 1;
-}*/
 
 
-/* --------------------------------------*/
-
-
-
-
-
+/* -------------------------------------------*/
 
 
 
@@ -1696,7 +1755,9 @@ pre code {
 .page-image,
 .page-content,
 .about-container,
-.post-card-box {
+.post-card-box,
+.index-title
+{
   -webkit-animation-duration: 0.7s;
           animation-duration: 0.7s;
   -webkit-animation-fill-mode: both;
@@ -1713,7 +1774,8 @@ pre code {
 
 .page-content,
 .about-container,
-.post-card-box {
+.post-card-box,
+.index-title {
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
 }

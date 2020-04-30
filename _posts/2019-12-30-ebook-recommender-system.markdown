@@ -3,9 +3,10 @@ layout: post
 title:  Ebook Recommender System
 date:   2019-12-30 11:00:20 +0300
 description: In this tutorial, we will implement a recommendation system for ebooks, based on the similarity between users.
-img: post-3.jpg # Add image post (optional)
-tags: [Recommender System | PySpark]
-author: Xavier Bracquart # Add name author (optional)
+img: post-3.jpg
+tags: [Recommender system,PySpark]
+author: Xavier Bracquart
+github: https://github.com/xavierbrt/recommender-system
 ---
 
 In this tutorial, we will implement a recommender system for ebooks, based on the similarity between users.

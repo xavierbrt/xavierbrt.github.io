@@ -11,7 +11,19 @@ layout: default
       <div class="page-content">
         <div class="header-page">
           <h1 class="page-title">{{page.title}}</h1>
-          <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time></div>
+          <div class="subtitle">
+            <div class="page-date">
+              <time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time>
+            </div>
+            {% if page.github %}
+            <div class="page-github">
+              <i class="fa fa-github"></i>
+              <a href="{{page.github}}">
+                <p>See on GitHub</p>
+              </a>
+            </div>
+            {% endif %}
+          </div>
         </div>
         {{page.content | markdownify}}
         <div class="page-footer">

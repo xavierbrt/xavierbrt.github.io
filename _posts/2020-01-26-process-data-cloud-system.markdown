@@ -3,9 +3,10 @@ layout: post
 title:  Process data with a cloud system
 date:   2020-01-26 11:00:20 +0300
 description: Process data with a cloud system (AWS)
-img: post-6.jpg # Add image post (optional)
+img: post-6.jpg
 tags: [Workflow, Scala, Cloud, NoSQL]
-author: Xavier Bracquart # Add name author (optional)
+author: Xavier Bracquart
+github: https://github.com/xavierbrt/telecom-projet-nosql
 ---
 
 In this tutorial, we will use a cloud system build on AWS, to **process data**. The objective is to store a dataset into a S3 cluster, to clean and store the data to a NoSQL database, Cassandra, and to query it. The cloud system is composed of a **cluster** in which we have installed **Spark** and **Cassandra**. Refers to this [other aticle](https://xavierbrt.github.io/deploy-distributed-system-AWS/) on the blog to see the design and the deploiement of the system. 

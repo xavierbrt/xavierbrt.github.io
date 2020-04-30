@@ -3,9 +3,10 @@ layout: post
 title:  Kickstarter - Successful Projects
 date:   2019-12-09 11:00:20 +0300
 description: In this tutorial, we will predict the success of a fundraising campaign on Kickstarter, based on its characteristics.
-img: post-2.jpg # Add image post (optional)
-tags: [ML, Spark, Data Cleaning]
-author: Xavier Bracquart # Add name author (optional)
+img: post-2.jpg
+tags: [Machine learning, Spark, Data Cleaning]
+author: Xavier Bracquart
+github: https://github.com/xavierbrt/spark_project_kickstarter_2019_2020
 ---
 
 In this tutorial, we will predict the success of a fundraising campaign on Kickstarter, based on its characteristics.<br /> 
