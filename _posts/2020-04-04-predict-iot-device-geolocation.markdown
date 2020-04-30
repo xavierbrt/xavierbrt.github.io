@@ -475,7 +475,7 @@ fig.show()
 ```
 <div style="text-align:center">
     <img src="/assets/img/7_output_map(2).png" alt="png">
-    <p class="caption">Position stations receiving the same messages as the outliers stations.</p>
+    <p class="caption">Position of the stations receiving the same messages as the outliers stations.</p>
 </div>
 
 
