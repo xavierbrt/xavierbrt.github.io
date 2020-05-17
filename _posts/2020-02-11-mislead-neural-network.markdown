@@ -12,7 +12,7 @@ github: https://github.com/xavierbrt/ml-exploration/tree/master/dl-adversarial-n
 
 In this tutorial, we will mislead a neural network, by slightly modifying an input image. This process is called an adversarial network.
 
-We will make the neural network says that an image of Mylene Farmer represents a man. In a [song](https://www.youtube.com/watch?v=d03wJOgoq1k), Mylène Farmer says *"With no forgery, I am a boy"*. Sorry for the forgery.
+We will make a neural network detecting gender says that an image of Mylène Farmer represents a man. In a [song](https://www.youtube.com/watch?v=d03wJOgoq1k), Mylène Farmer says *"With no forgery, I am a boy"*. Sorry for the forgery.
 
 
 
