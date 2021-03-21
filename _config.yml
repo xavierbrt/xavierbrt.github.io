@@ -10,8 +10,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: Xavier Bracquart # add your name
 author-pic: xavier-face.jpg
 about-author: > 
-  My name is Xavier Bracquart. I am a data scientist intern at ManoMano.
-  <br />I am looking for a position of Data Scientist from March 2021.<br />Feel free to contact me!
+  My name is Xavier Bracquart. I love data science.
+  <br />Feel free to contact me!
 
 # Contact links
 email: ' x[lastname][at]gmail.com' # Add your Email address
