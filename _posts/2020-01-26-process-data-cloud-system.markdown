@@ -5,7 +5,7 @@ date:   2020-01-26 11:00:20 +0300
 description: Process data with a cloud system (AWS)
 img: post-6.jpg
 tags: [Workflow, Scala, Cloud, NoSQL]
-author: Xavier Bracquart
+author: Xavier B.
 github: https://github.com/xavierbrt/telecom-projet-nosql
 ---
 

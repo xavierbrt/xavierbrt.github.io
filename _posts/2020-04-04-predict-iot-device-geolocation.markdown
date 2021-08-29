@@ -5,7 +5,7 @@ date:   2020-04-04 11:00:20 +0300
 description: Predict the geolocation of IoT devices, based on the metadata of the messages they emit.
 img: post-7.jpg # Add image post (optional)
 tags: [Machine learning, Data Cleaning, Random Forest, IoT]
-author: Xavier Bracquart # Add name author (optional)
+author: Xavier B. # Add name author (optional)
 github: https://github.com/xavierbrt/predict-iot-device-geolocation
 ---
 

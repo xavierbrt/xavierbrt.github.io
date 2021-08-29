@@ -1,4 +1,4 @@
-# Xavier Bracquart - Personal blog
+# Xavier B. - Personal blog
 
 Source code of my blog about data science. <br />
 

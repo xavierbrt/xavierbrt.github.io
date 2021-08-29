@@ -5,7 +5,7 @@ date:   2020-02-11 11:00:20 +0300
 description: In this tutorial, we will mislead a neural network, by slightly modifying an input image. This process is called an adversarial network.
 img: post-4.jpg
 tags: [Deep learning, Adversarial network, Tensorflow]
-author: Xavier Bracquart
+author: Xavier B.
 github: https://github.com/xavierbrt/ml-exploration/tree/master/dl-adversarial-network
 ---
 

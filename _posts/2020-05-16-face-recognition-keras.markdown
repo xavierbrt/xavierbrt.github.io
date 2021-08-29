@@ -5,7 +5,7 @@ date:   2020-05-16 11:00:20 +0300
 description: Build a face recognition system with Keras
 img: post-8-4.jpg # or -2
 tags: [Deep learning, CNN, Siamese Network, SVM, Keras]
-author: Xavier Bracquart 
+author: Xavier B. 
 github: https://github.com/xavierbrt/ml-exploration/tree/master/dl-face-recognition
 ---
 

@@ -5,7 +5,7 @@ date:   2020-01-24 11:00:20 +0300
 description: Deploy a distributed system on AWS
 img: post-5-1.jpg
 tags: [Infrastructure, Cloud, NoSQL]
-author: Xavier Bracquart
+author: Xavier B.
 github: https://github.com/xavierbrt/telecom-projet-nosql
 ---
 

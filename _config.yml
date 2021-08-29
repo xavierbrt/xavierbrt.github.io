@@ -1,16 +1,16 @@
-title: Personal blog - Xavier Bracquart
+title: Personal blog - Xavier B.
 email: #your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Xavier Bracquart's personal blog, gathering projects around data science. 
+  Xavier B.'s personal blog, gathering projects around data science. 
 permalink: ':title/'
 ##baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: Xavier Bracquart # add your name
+author: Xavier B. # add your name
 author-pic: xavier-face.jpg
 about-author: > 
-  My name is Xavier Bracquart. I love data science.
+  My name is Xavier. I love data science.
   <br />Feel free to contact me!
 
 # Contact links
