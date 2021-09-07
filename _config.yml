@@ -8,13 +8,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Xavier B. # add your name
-author-pic: xavier-face.jpg
+author-pic: profile-face.jpg
 about-author: > 
   My name is Xavier. I love data science.
   <br />Feel free to contact me!
 
 # Contact links
-email: ' x[lastname][at]gmail.com' # Add your Email address
+email: # Add your Email address
 phone: # Add your Phone number
 website: xavierbrt.github.io # Add your website, do not add http://
 linkedin: xbracquart # Add your Linkedin handle
